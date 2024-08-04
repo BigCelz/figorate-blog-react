@@ -1,0 +1,139 @@
+.editor{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.editor-title{
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.08px;
+    text-align: left;
+    color: #495057;    
+}
+
+/* the overlay content on top of the image */
+.image-container {
+    position: relative;
+    display: inline-block; 
+}
+
+.image {
+    display: block;
+    width: 100%;
+  
+}
+
+.overlay-content{
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    color: white; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 40px; 
+}
+
+.e-date{
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.36px;
+    text-align: left;
+    color: #E5E5E5;
+}
+
+.e-title{
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #fff; 
+    max-width: 270px;   
+}
+
+.e-words{
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    max-width: 340px; 
+    color: #E5E5E5;    
+}
+
+@media(max-width: 810px) {
+    .editor-title{
+        font-family: Lora;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 46.08px;
+        text-align: left;
+        color: #495057;    
+    }
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .overlay-content{
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        color: white; 
+        background: rgba(0, 0, 0, 0.5); 
+        padding: 40px; 
+    }
+
+    .e-date{
+        font-family: Lora;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10.36px;
+        text-align: left;
+        color: #E5E5E5;
+    }
+    
+    .e-title{
+        font-family: Lora;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+        color: #fff; 
+        max-width: 270px;   
+    }
+    
+    .e-words{
+        font-family: Lora;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        max-width: 340px; 
+        color: #E5E5E5;    
+    }
+}
+
+@media(min-width: 760px) and (max-width:1200px) {
+   .e-words{
+    display: none; 
+   }
+
+ .overlay-content{
+    position: absolute;
+    bottom: 0;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    color: white; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 40px; 
+ }
+}

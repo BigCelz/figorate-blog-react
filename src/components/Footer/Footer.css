@@ -1,0 +1,217 @@
+.footer{
+    margin-top: 10px;
+    background: #4EB867;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.figorate{
+    font-family: Plus Jakarta Sans !important;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #184070;   
+    margin-top: 8%;
+}
+
+.img-logo{
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px; 
+}
+
+.nav-row{
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+
+.nav-header{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 18%;
+}
+
+.nav-title{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: left;
+    color: #fff;    
+}
+
+.nav-link{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    color: #fff; 
+    margin: 0 24px;  
+    cursor: pointer; 
+    margin-bottom: 20px;
+}
+
+.nav-link:hover{
+    color: hsla(0, 0%, 100%, 0.459);
+}
+
+.nav-link-container{
+    margin-left: -14%;
+}
+
+.privacy{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: left;
+    color: #fff; 
+    margin-bottom: 30px;   
+}
+
+.line{
+    color: #fff !important;
+    height: 5px !important;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.copyright{
+    font-family: Space Grotesk;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: #fff;   
+}
+
+.term{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;
+    color: #fff;    
+}
+
+.fa-brands{
+    font-size: 23px;
+    margin: 0 20px;
+    color: #fff !important;
+}
+
+.foot-logo-link{
+    text-decoration: none;
+}
+
+.img-logo{
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 768px) {
+    .figorate{
+        font-family: Plus Jakarta Sans !important;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 40.32px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #184070;   
+        margin-top: 8%;
+    }
+    
+    .img-logo{
+        width: 20px;
+        height: 20px;
+        gap: 0px;
+        opacity: 0px; 
+    } 
+
+    .nav-title{
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20.51px;
+        text-align: left;
+        color: #fff; 
+        display: block;   
+    }
+
+    .nav-header{
+        margin-bottom: 15px;
+        margin-top: 5px !important;
+        margin-left: 2%;
+    }
+
+    
+
+    .nav-link-container{
+        margin-left: -70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-link{
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21.79px;
+        text-align: center;
+        color: #fff; 
+        margin: 0 10px;  
+        cursor: pointer; 
+        margin-bottom: 5px;
+    }
+
+    .privacy{
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20.51px;
+        text-align: left;
+        color: #fff; 
+        margin-bottom: 30px;  
+        margin-top: 20px; 
+    }
+
+    .copyright-container{
+        text-align: center;
+    }
+
+    .copyright{
+        font-family: Space Grotesk;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.8px;
+        text-align: center !important;
+        color: #fff;   
+    }
+    
+    .term{
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 24.51px;
+        text-align: center;
+        color: #fff;  
+        margin-top: 10px;  
+    }
+
+    .fa-brands{
+        font-size: 15px;
+        margin: 0 20px;
+        color: #fff !important;
+    }
+  
+}

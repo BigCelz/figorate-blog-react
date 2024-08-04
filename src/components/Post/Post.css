@@ -1,0 +1,141 @@
+.post{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.post-header{
+    margin-bottom: 20px;
+}
+
+.post-title{
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.08px;
+    text-align: left;
+    color: #495057;
+}
+
+.nav-link{
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #495057;
+}
+
+.nav-link:hover{
+    color: #D4A373;  
+}
+
+.all{
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #D4A373;    
+}
+
+/* cards */
+.card-row{
+    margin-top: 40px;
+}
+
+.date{
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.36px;
+    text-align: left;
+    color: #6C757D;   
+}
+
+.descrip{
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #6C757D;  
+    max-width: 301.03px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.words{
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6C757D;
+    max-width: 341.83px;
+}
+
+.card-content{
+   margin: 0 20px;
+}
+
+@media (max-width:768px) {
+    .post-title{
+        font-family: Lora;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 46.08px;
+        text-align: left;
+        color: #495057;
+    }
+
+    .nav-container{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-link{
+        font-family: Lora;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: left;
+        color: #495057;
+    }
+
+    .card-content{
+        margin-bottom: 40px;
+    }
+
+    .date{
+        font-family: Lora;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10.36px;
+        text-align: left;
+        color: #6C757D;   
+    }
+    
+    .descrip{
+        font-family: Lora;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+        color: #6C757D;  
+        max-width: 301.03px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .words{
+        font-family: Lora;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: #6C757D;
+        max-width: 341.83px;
+    }
+}

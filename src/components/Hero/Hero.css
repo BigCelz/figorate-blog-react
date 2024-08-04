@@ -1,0 +1,159 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(101.48deg, rgba(0, 0, 0, 0.6) 1.33%, rgba(0, 0, 0, 0.36) 99.73%);
+
+}
+
+.explore-container{
+    margin-left: 2%;
+}
+
+.explore{
+    width: Hug (54px)px;
+    height: Hug (22px)px;
+    top: 278px;
+    left: 205px;
+    padding: 5px 10px 5px 10px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #FFFFFF26;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11.72px;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-title{
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.08px;
+    text-align: left;
+    color: #fff;   
+    max-width: 735px;
+    height: 138px; 
+    margin-top: 10px;
+}
+
+.date-container{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: -5% !important;
+}
+
+.date-box{
+    margin-top: 1%;
+}
+
+.date{
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.36px;
+    text-align: left;
+    color: #E5E5E5 !important;    
+}
+
+.dash-container{
+  margin-left: 10px;
+  margin-top: 1%;
+}
+
+.join-container{
+  margin-left: 17px;
+  margin-top: 10px;
+}
+
+.join{
+    font-family: Lora;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #E5E5E5; 
+    max-width: 420px;
+}
+
+@media (max-width: 768px) {
+    .explore{
+        width: Hug (44px)px;
+        height: Hug (18px)px;
+        top: 278px;
+        left: 205px;
+        padding: 5px 10px 5px 10px;
+        gap: 10px;
+        border-radius: 8px;
+        opacity: 0px;
+        background: #FFFFFF26;
+        font-family: Roboto;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 11.72px;
+        text-align: right;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .hero-title{
+        font-family: Lora;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 36.08px;
+        text-align: left;
+        color: #fff;   
+        max-width: 735px;
+        height: 138px; 
+        margin-top: 15px;
+    }
+
+    .date-container{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin-left: 0;
+        margin-top: 15%;
+    }
+      
+      
+    .date{
+        font-family: Lora;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 15.36px;
+        text-align: left;
+        color: #E5E5E5;    
+    }
+
+    .img{
+        width: 15px;
+    }
+
+    .join{
+        font-family: Lora;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+        color: #E5E5E5; 
+        max-width: 420px;
+    }
+}
+
+@media (min-width: 800px)  and (max-width: 1300px) {
+    .date-container{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin-left: -2% !important;
+    }
+      
+}
+
