@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/figorate-blog-react/static/css/main.7217e5d2.css",
+    "main.js": "/figorate-blog-react/static/js/main.43816f58.js",
+    "static/js/453.ede2c593.chunk.js": "/figorate-blog-react/static/js/453.ede2c593.chunk.js",
+    "static/media/blog9.png": "/figorate-blog-react/static/media/blog9.48b8aeb12ef30b3f3ac0.png",
+    "static/media/blog10.png": "/figorate-blog-react/static/media/blog10.b894916df66bb93fe054.png",
+    "static/media/blog.png": "/figorate-blog-react/static/media/blog.d767c305f1a16bff18f0.png",
+    "static/media/man.jpg": "/figorate-blog-react/static/media/man.dabb5634d8535df62c07.jpg",
+    "static/media/vegies2.png": "/figorate-blog-react/static/media/vegies2.18138fac77fc08597148.png",
+    "static/media/jar.png": "/figorate-blog-react/static/media/jar.c59767d514460c61d5c4.png",
+    "static/media/man2.png": "/figorate-blog-react/static/media/man2.c18b3ea993afb2424284.png",
+    "static/media/leg.png": "/figorate-blog-react/static/media/leg.04ef68b1cf8083539847.png",
+    "static/media/phone.png": "/figorate-blog-react/static/media/phone.37583499d5aea1d76055.png",
+    "static/media/robot.png": "/figorate-blog-react/static/media/robot.8494a09371dc0e965ff2.png",
+    "static/media/yoga.png": "/figorate-blog-react/static/media/yoga.8716d4fb494e3d169309.png",
+    "index.html": "/figorate-blog-react/index.html",
+    "main.7217e5d2.css.map": "/figorate-blog-react/static/css/main.7217e5d2.css.map",
+    "main.43816f58.js.map": "/figorate-blog-react/static/js/main.43816f58.js.map",
+    "453.ede2c593.chunk.js.map": "/figorate-blog-react/static/js/453.ede2c593.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7217e5d2.css",
+    "static/js/main.43816f58.js"
+  ]
+}
